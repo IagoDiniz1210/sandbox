@@ -1,0 +1,23 @@
+.sobre {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  opacity: 0;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.sobre .SOBRE {
+  color: #ffffff;
+  font-family: var(--headers-h3-font-family);
+  font-size: var(--headers-h3-font-size);
+  font-style: var(--headers-h3-font-style);
+  font-weight: var(--headers-h3-font-weight);
+  letter-spacing: var(--headers-h3-letter-spacing);
+  line-height: var(--headers-h3-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
